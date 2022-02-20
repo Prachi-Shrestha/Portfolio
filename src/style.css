@@ -1,0 +1,79 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.bg-black{
+  background-color: #000 !important;
+}
+.head{
+    background: url(./Components/img/Group\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+.contact{
+    background: url(./Components/img/Vector\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -3px;
+}
+.my-10{
+    margin-top: 9rem !important;
+    margin-bottom: 13rem;
+}
+.education {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .education {
+    background-image: linear-gradient(to right,rgba(244, 244, 244, 0.7),rgba(244, 244, 244,0.4)), url("https://68.media.tumblr.com/d3fd545cd977a174beef12c1106880bf/tumblr_nt505iKkul1ud7rr3o1_1280.jpg");
+    min-height: 400px;
+  } 
+  .p_bar {
+    height:10px;
+    width:500px;
+    background:rgba(0, 0, 0, 0.1);
+    margin:0 auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position:relative;
+    margin:30px 70px; 
+  }
+  
+  div.w_bar {
+    min-height:8;
+    height:10px;
+    width:0;
+    background:black;
+    border-radius:10px;
+    bottom:0px;
+    opacity:1;
+  }
+  
+  .per {    
+    color:#000;
+    font-size: 18px;
+    font-weight:700;
+  }
+  .border-black{
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+  }
+  .icon{
+    font-size: 45px;
+  }
+  .border-black:hover{
+    transform: rotate(45deg);
+  }
+  .border-black:hover > .icon{
+    transform: rotate(-45deg);
+  }
+  
+  
