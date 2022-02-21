@@ -13,7 +13,7 @@ function Contact() {
         <h3 className='mb-4'>Social Links</h3>
         <ul className = 'mt-2 d-flex justify-content-center flex-row list-unstyled mb-0 pb-4'>
             <li>
-                <img src={Facebook} className="mx-5" alt="" width={40} height={40}/>                         
+                <img src={Facebook} className="me-5" alt="" width={40} height={40}/>                         
             </li>
             <li>
                 <img src={Instagram} className="mx-5" alt="" width={40} height={40}/>                

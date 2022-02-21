@@ -1,6 +1,9 @@
 .navbar-collapse {
     flex-grow: 0 !important;
 }
+.isCurrent .nav-link {
+  color: #fff !important;
+}
 .bg-black{
   background-color: #000 !important;
 }
