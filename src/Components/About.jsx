@@ -1,5 +1,5 @@
 import React from 'react'
-import image from './img/image.jpg'
+import image from './img/about.jpg'
 
 function About() {
   return (
