@@ -1,5 +1,10 @@
 import React from "react";
 import Scrollspy from 'react-scrollspy'
+import { $ } from "react-jquery-plugin"
+
+function collapsetoggle(){
+  $(".collapse").toggle();
+}
 
 function Header() {
   return (
@@ -16,7 +21,7 @@ function Header() {
             data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="Toggle navigation" onClick={collapsetoggle}
           >
             <span className="navbar-toggler-icon"></span>
           </button>

@@ -5,9 +5,9 @@ function About() {
   return (
     <div id='About'>
       <div className="container my-5">
-        <h1 className='display-3 fw-bold mb-5'>About me</h1>
+        <h1 className='display-3 fw-bold mb-md-5 mb-3'>About me</h1>
         <div className="row align-items-center">
-          <div className="col-md-6 px-5">
+          <div className="col-md-6 px-5 mb-md-0 mb-3">
             <img src={image} alt="" width={'60%'}/>
           </div>
           <div className="col-md-6" style={{textAlign: 'justify'}}>

@@ -20,8 +20,8 @@ function Education() {
               </div>
             </div>
             <div className="d-flex justify-content-center my-5">
-              <div className="d-flex justify-content-evenly align-items-center  ps-md-5 ms-md-4">
-                <div className='border-black d-flex align-items-center justify-content-center me-5 ms-md-5'>
+              <div className="d-flex justify-content-evenly align-items-center ps-md-5 ms-md-4">
+                <div className='border-black d-flex align-items-center justify-content-center me-sm-5 me-0 ms-md-5'>
                   <FontAwesomeIcon className='icon' icon="fa-solid fa-building-columns" />
                 </div>
                 <div>

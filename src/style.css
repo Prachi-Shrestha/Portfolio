@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: 77%;
     margin-left: -2px;
-    margin-top: -3px;
+    margin-top: 46px;
 }
 .contact{
     background: url(./Components/img/Vector\ 3.png);
@@ -21,10 +21,6 @@
     background-size: cover;
     background-position: center;
     margin-bottom: -3px;
-}
-.my-10{
-    margin-top: 9rem !important;
-    margin-bottom: 13rem;
 }
 .education {
     position: relative;
@@ -78,5 +74,16 @@
   .border-black:hover > .icon{
     transform: rotate(-45deg);
   }
-  
+  @media (min-width: 500px) {
+      .my-10{
+        margin-top: 9rem !important;
+        margin-bottom: 13rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .my-10{
+      margin-top: 2rem!important;
+      margin-bottom: 4rem;
+    }
+  }
   
