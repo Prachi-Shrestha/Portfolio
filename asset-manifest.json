@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/prachishrestha.com.np/static/css/main.7bdc8fa8.css",
+    "main.js": "/prachishrestha.com.np/static/js/main.f9a41bac.js",
+    "static/js/787.aeca62f9.chunk.js": "/prachishrestha.com.np/static/js/787.aeca62f9.chunk.js",
+    "static/media/image.jpg": "/prachishrestha.com.np/static/media/image.353434bf00eb7a506038.jpg",
+    "static/media/Instagram.png": "/prachishrestha.com.np/static/media/Instagram.9a9e6f69d6dd37842f81.png",
+    "static/media/Group 1.jpg": "/prachishrestha.com.np/static/media/Group 1.1b95f3ec2188a085c820.jpg",
+    "index.html": "/prachishrestha.com.np/index.html",
+    "main.7bdc8fa8.css.map": "/prachishrestha.com.np/static/css/main.7bdc8fa8.css.map",
+    "main.f9a41bac.js.map": "/prachishrestha.com.np/static/js/main.f9a41bac.js.map",
+    "787.aeca62f9.chunk.js.map": "/prachishrestha.com.np/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bdc8fa8.css",
+    "static/js/main.f9a41bac.js"
+  ]
+}
