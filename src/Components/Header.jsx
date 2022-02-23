@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-black fixed-top"
+        className="navbar navbar-expand-lg navbar-dark bg-24 fixed-top"
         id="navbar"
       >
         <div className="container-fluid d-flex justify-content-center">

@@ -4,11 +4,11 @@
 .isCurrent .nav-link {
   color: #fff !important;
 }
-.bg-black{
-  background-color: #000 !important;
+.bg-24{
+  background-color: #242424 !important;
 }
 .head{
-    background: url(./Components/img/Group\ 1.jpg);
+    background: url(./Components/img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 77%;
