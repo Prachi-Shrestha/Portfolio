@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Education() {
   return (
-    <div id='Education'>
+    <div id='Education' className='container con'>
         <div className="education py-5">
           <div className="container">
             <h1 className='display-3 fw-bold'>Education</h1>

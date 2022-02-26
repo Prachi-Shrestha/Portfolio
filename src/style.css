@@ -11,7 +11,7 @@
     background: url(./Components/img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 77%;
+    background-position: 0%;
     margin-left: -2px;
     margin-top: 46px;
 }
@@ -84,6 +84,19 @@
     .my-10{
       margin-top: 2rem!important;
       margin-bottom: 4rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    .head {
+      background-position: 59%;
+    }
+
+  }
+  @media (max-width: 1550px) {
+    .con {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: 100% !important;
     }
   }
   
