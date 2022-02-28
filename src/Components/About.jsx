@@ -14,9 +14,9 @@ function About() {
   //   observer.observe(myRef.current);
   // }, []);
 
-  // const [myAbout, setmyAbout] = useState();
+  // const [myAbout, setmyAbout] = useState();  
   const { ref: myRef, inView: myAbout } = useInView();
-
+  // console.log(myAbout);
   return (
     <div id='About' ref={myRef}>
       <div className="container my-5">

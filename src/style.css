@@ -35,29 +35,29 @@
 }
 .btn-border::after{
   position: absolute;
-  right: -5px;
-  bottom: -5px;  
+  right: 0px;
+  bottom: 0px;  
   height: 55%;
   width: 30%;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
   content: "";
-  transition: 1.3s linear;
+  transition: 0.5s linear;
 }
 .btn-border::before {
   position: absolute;
-  left: -5px;
-  top: -5px;
+  left: 0px;
+  top: 0px;
   height: 55%;
   width: 30%;
   border-left: 2px solid white;
   border-top: 2px solid white;
   content: "";
-  transition: 1.3s linear;
+  transition: 0.5s linear;
 }
 .btn-border:hover::after,  .btn-border:hover::before{
-  height: 124%;
-  width: 110%;
+  height: 100%;
+  width: 100%;
 }
 .btn-check:focus + .btn, .btn:focus {
   box-shadow: none !important;

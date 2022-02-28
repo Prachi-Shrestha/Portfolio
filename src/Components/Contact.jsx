@@ -31,13 +31,13 @@ function Contact() {
             placeholder="Message"
           ></textarea>
           <div className="text-start">
-            <button type="submit" className="btn btn-light mb-4">Send Message</button>
+            <button type="submit" className="btn text-white btn-border py-3 px-3 mb-4">Send Message</button>
           </div>
         </form>
         <h3 className="mb-4">Social Links</h3>
         <ul className="mt-2 d-flex justify-content-center flex-row list-unstyled mb-0 pb-4">
           <li>
-            <a href="https://www.facebook.com/pra.stha.39/">
+            <a href="https://www.facebook.com/pra.stha.39/" target="_blank" rel="noreferrer">
               <img
                 src={Facebook}
                 className="me-5"
@@ -48,7 +48,7 @@ function Contact() {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/prachi_stha/">
+            <a href="https://www.instagram.com/prachi_stha/" target="_blank" rel="noreferrer">
               <img
                 src={Instagram}
                 className="mx-5"
@@ -59,7 +59,7 @@ function Contact() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/prachi-shrestha-58161b151/">
+            <a href="https://www.linkedin.com/in/prachi-shrestha-58161b151/" target="_blank" rel="noreferrer">
               <img
                 src={linkedin}
                 className="ms-5"

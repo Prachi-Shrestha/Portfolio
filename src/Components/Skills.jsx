@@ -1,5 +1,6 @@
 import React from "react";
 import { $ } from "react-jquery-plugin";
+import { useInView } from 'react-intersection-observer';
 
 function progress() {
   $(".p_bar").each(function () {
@@ -21,15 +22,35 @@ function progress() {
   });
 }
 
-$(window).on("scroll", function () {
-  if ($(window).scrollTop() > 100) {
+function reverse() {
+  $(".p_bar").each(function () {
+    $(this)
+      .find(".w_bar")
+      .animate(
+        {
+          width: 0,
+        },
+        {
+          step: function (now) {
+            $(this)
+              .next()
+              .text(0 + "%");
+          },
+        }
+      );
+  });
+}
+function Skills() {
+  const { ref: myRef2, inView: mySkills } = useInView();
+  console.log(mySkills);
+  if(mySkills){  
     progress();
   }
-});
-
-function Skills() {
+  else{
+    reverse();
+  }
   return (
-    <div id="Skills">
+    <div id="Skills" ref={myRef2}>
       <div className="container py-5">
         <h1 className="display-3 fw-bold mb-5">Skills</h1>
         <section id="progress" className="mx-lg-5 px-lg-5 mb-4">
