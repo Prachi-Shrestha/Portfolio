@@ -56,42 +56,42 @@ function Skills() {
         <section id="progress" className="mx-lg-5 px-lg-5 mb-4">
         <div className="d-flex justify-content-between align-items-center">
             <h2 className="ms-lg-5 ps-lg-5">HTML</h2>
-            <div className="p_bar" data-max="90%">
+            <div className="p_bar" data-max="85%">
               <div className="w_bar" data-value="0"></div>
               <h2 className="per">0%</h2>
             </div>
           </div>
           <div className="d-flex justify-content-between align-items-center">
             <h2 className="ms-lg-5 ps-lg-5">CSS3</h2>
-            <div className="p_bar" data-max="90%">
+            <div className="p_bar" data-max="85%">
               <div className="w_bar" data-value="0"></div>
               <h2 className="per">0%</h2>
             </div>
           </div>
           <div className="d-flex justify-content-between align-items-center">
             <h2 className="ms-lg-5 ps-lg-5">JavaScript</h2>
-            <div className="p_bar" data-max="75%">
+            <div className="p_bar" data-max="50%">
               <div className="w_bar" data-value="0"></div>
               <h2 className="per">0%</h2>
             </div>
           </div>
           <div className="d-flex justify-content-between align-items-center">
               <h2 className="ms-lg-5 ps-lg-5">JQuery</h2>
-              <div className="p_bar" data-max="75%">
+              <div className="p_bar" data-max="50%">
                 <div className="w_bar" data-value="0"></div>
                 <h2 className="per">0%</h2>
               </div>
           </div>
           <div className="d-flex justify-content-between align-items-center">
               <h2 className="ms-lg-5 ps-lg-5">React JS</h2>
-              <div className="p_bar" data-max="60%">
+              <div className="p_bar" data-max="50%">
                 <div className="w_bar" data-value="0"></div>
                 <h2 className="per">0%</h2>
               </div>
           </div>
           <div className="d-flex justify-content-between align-items-center">
               <h2 className="ms-lg-5 ps-lg-5">Photoshop</h2>
-              <div className="p_bar" data-max="48%">
+              <div className="p_bar" data-max="40%">
                 <div className="w_bar" data-value="0"></div>
                 <h2 className="per">0%</h2>
               </div>
